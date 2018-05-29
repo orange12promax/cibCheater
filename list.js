@@ -7,6 +7,7 @@
 // @match        https://personalbank.cib.com.cn/pers/main/account/queryTrans*
 // @grant        none
 // @license      OSI-SPDX-Short-Identifier
+// @copyright    2018, saisai9321(https://openuserjs.org/users/saisai9321/)
 // ==/UserScript==
 
 (function() {
