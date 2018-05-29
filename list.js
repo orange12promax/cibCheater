@@ -1,13 +1,13 @@
 // ==UserScript==
+// @run-at       document-end
 // @name         change list
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.5
 // @description  try to take over the world!
 // @author       You
 // @match        https://personalbank.cib.com.cn/pers/main/account/queryTrans*
-// @grant        none
-// @license      OSI-SPDX-Short-Identifier
-// @copyright    2018, saisai9321(https://openuserjs.org/users/saisai9321/)
+// @license      GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
+// @copyright    2018+, saisai9321(https://openuserjs.org/users/saisai9321/)
 // ==/UserScript==
 
 (function() {
