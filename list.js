@@ -6,7 +6,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://personalbank.cib.com.cn/pers/main/account/queryTrans*
-// @license      GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
+// @license      MIT; https://opensource.org/licenses/MIT
 // @copyright    2018+, saisai9321(https://openuserjs.org/users/saisai9321/)
 // ==/UserScript==
 
