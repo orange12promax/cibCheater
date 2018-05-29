@@ -34,6 +34,12 @@
                 callback();
             }
         }
+        function changeSummary() {
+            var summaryDom = window.document.querySelectorAll('.info-show')[1];
+            if(summaryDom && summaryDom.tagName){
+                summaryDom.parentNode.removeChild(summaryDom);
+            }
+        }
         var timer=window.setInterval(judgeUser(function(){
             var tab=window.document.body.querySelector('#list'),
                 _form=window.document.body.querySelector('#form');
@@ -117,6 +123,7 @@
                 });
                 window.clearInterval(timer);
             }
+            changeSummary();
         }),3);
         window.setTimeout(function(){
             clearInterval(window.timer);
