@@ -6,6 +6,7 @@
 // @author       You
 // @match        https://personalbank.cib.com.cn/pers/main/account/queryTrans*
 // @grant        none
+// @license      OSI-SPDX-Short-Identifier
 // ==/UserScript==
 
 (function() {
